@@ -13,3 +13,5 @@ const firebaseConfig = {
 
 export const firebaseInstance = firebase.initializeApp(firebaseConfig);
 export const authService = firebase.auth();
+
+export default authService; // authService를 default로 export 추가
